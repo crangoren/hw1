@@ -6,29 +6,29 @@ public class Main {
 
     public static void main(String[] args) {
 
-//        Move human = new Human(300, 1, "vasya");
-//        Move cat = new Cat(50, 4, "barsik");
-//        Move robot = new Robot(1500, 0, "r2d2");
-//
-//        Wall wall1 = new Wall( 1);
-//        Road road1 = new Road( 300);
-//
-//        human.jump();
-//        human.run();
-//        human.jumpOver(wall1.height);
-//        human.runAround(road1.distance);
-//
-//
-//        cat.jump();
-//        cat.run();
-//        cat.runAround(road1.distance);
-//        cat.jumpOver(wall1.height);
-//
-//
-//        robot.jump();
-//        robot.run();
-//        robot.jumpOver(wall1.height);
-//        robot.runAround(road1.distance);
+        Move human = new Human(300, 1, "vasya");
+        Move cat = new Cat(50, 4, "barsik");
+        Move robot = new Robot(1500, 0, "r2d2");
+
+        Wall wall1 = new Wall( 1);
+        Road road1 = new Road( 300);
+
+        human.jump();
+        human.run();
+        human.jumpOver(wall1.height);
+        human.runAround(road1.distance);
+
+
+        cat.jump();
+        cat.run();
+        cat.runAround(road1.distance);
+        cat.jumpOver(wall1.height);
+
+
+        robot.jump();
+        robot.run();
+        robot.jumpOver(wall1.height);
+        robot.runAround(road1.distance);
 
         Move[] persons = {
                 new Cat(10, 4, "pushok"),
